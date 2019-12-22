@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
+li {
+  float: left;
+}
+
+mat-toolbar{
+  padding: 0px 16px 0px 0px;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font: 16px Roboto, "Helvetica Neue Light"
+}
+
+a.nav-link {
+  padding: 24px 0px;
+}
+
+span.nav-link-inner {
+  padding: 8px 16px;
+}
