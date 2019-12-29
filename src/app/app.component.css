@@ -1,17 +1,30 @@
+.mat-toolbar {
+  background-color: rgba(23, 121, 233, 0);
+  opacity: 1;
+}
+
+.nav-line {
+  padding-left: 15px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-bottom: 15px;
+  padding-left: 15px;
   overflow: hidden;
-  background-color: gray;
+}
+
+.mat-toolbar-row{
+  padding: 0px 24px 0px 0px;
 }
 
 li {
   float: left;
+  cursor: pointer;
 }
-
-mat-toolbar{
-  padding: 0px 16px 0px 0px;
+.active {
+  background-color: #378fe7;
 }
 
 li a {
@@ -20,6 +33,10 @@ li a {
   text-align: center;
   text-decoration: none;
   font: 16px Roboto, "Helvetica Neue Light"
+}
+
+li a:hover {
+  color: rgb(198, 213, 233);
 }
 
 a.nav-link {

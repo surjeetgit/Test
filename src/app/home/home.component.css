@@ -1,0 +1,16 @@
+.hdr {
+  position: relative;
+  /* background-color: rgb(23, 121, 233); */
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 450px;
+}
+
+#imghdr {
+  position: absolute;
+  top: 15px;
+  left: 130px;
+  margin: 0px 0px 8px;
+  scale: 50px;
+}

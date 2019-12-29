@@ -1,25 +1,25 @@
 <div class="container">
-  <mat-toolbar color="primary">
-    <span>
-      <a class="nav-line home" href="https://angular.io">
-        <img src="../assets/images/logo-nav@2x.png" alt="Home"  title="Home"
-          height="40" width="150">
-      </a>
-    </span>
-      <ul role="navigation">
+  <mat-toolbar class="mat-toolbar" color="primary">
+    <mat-toolbar-row class="mat-toolbar-row">
+      <span>
+        <a class="nav-line home" routerLink="">
+          <img src="../assets/images/logo-nav@2x.png" alt="Home" title="Home" height="40" width="150">
+        </a>
+      </span>
+      <ul>
         <li>
-          <a class="nav-link" href="features">
-            <span class="nav-link-inner">FEATURES</span>
+          <a class="nav-link">
+            <span class="nav-link-inner" title="Features" routerLink="/features" routerLinkActive="active" [routerLinkActiveOptions] = '{ exact: true }'>FEATURES</span>
           </a>
-          <a class="nav-link" href="events">
-            <span class="nav-link-inner">EVENTS</span>
+          <a class="nav-link">
+            <span class="nav-link-inner" title="Events" routerLink="/events" routerLinkActive="active">EVENTS</span>
           </a>
-          <a class="nav-link" href="resources">
-            <span class="nav-link-inner">RESOURCES</span>
+          <a class="nav-link">
+            <span class="nav-link-inner" title="Resources" routerLink="/resources" routerLinkActive="active">RESOURCES</span>
           </a>
         </li>
-        <li></li>
-        <li></li>
       </ul>
+    </mat-toolbar-row>
   </mat-toolbar>
 </div>
+<router-outlet></router-outlet>
